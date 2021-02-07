@@ -1,24 +1,30 @@
 {
 	"name": "request_header",
 	"version": "0.0.1",
-	"description": "API project for freeCodeCamp",
+	"description": "Hans Walter API project for freeCodeCamp",
 	"main": "server.js",
+	"engines": {
+		"node": "14.x"
+	  },
 	"scripts": {
 		"start": "node server.js"
 	},
 	"dependencies": {
 		"express": "^5.0.0-alpha.2",
 		"cors": "^2.8.1",
-		"dotenv": "^8.2.0"
+		"dotenv": "^8.2.0",
+		"got": "^11.3.0",
+		"tape": "^4.7.0"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://github.com/hwalter734/request-header-parser-microservice.git"
 	},
 	"keywords": [
 		"node",
 		"hyperdev",
-		"express"
+		"express",
+		"heroku"
 	],
 	"license": "MIT"
 }
